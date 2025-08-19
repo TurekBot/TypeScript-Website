@@ -137,7 +137,7 @@ div.childNodes;
 // NodeList(2) [p, p]
 ```
 
-After capturing the `div` element, the `children` prop will return an `HTMLCollection` list containing the `HTMLParagraphElements`. The `childNodes` property will return a similar `NodeList` list of nodes. Each `p` tag will still be of type `HTMLParagraphElements`, but the `NodeList` can contain additional _HTML nodes_ that the `HTMLCollection` list cannot.
+After capturing the `div` element, the `children` property will return an `HTMLCollection` list containing the `HTMLParagraphElements`. The `childNodes` property will return a similar `NodeList` list of nodes. Each `p` tag will still be of type `HTMLParagraphElements`, but the `NodeList` can contain additional _HTML nodes_ that the `HTMLCollection` list cannot.
 
 Modify the HTML by removing one of the `p` tags, but keep the text.
 
