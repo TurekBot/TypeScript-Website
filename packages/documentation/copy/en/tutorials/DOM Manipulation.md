@@ -120,7 +120,7 @@ This method works similarly to the `createElement` method as the generic paramet
 
 ## Difference between `children` and `childNodes`
 
-Previously, this document details the `HTMLElement` interface extends from `Element` which extends from `Node`. In the DOM API there is a concept of _children_ elements. For example in the following HTML, the `p` tags are children of the `div` element
+Above, this document details the `HTMLElement` interface extends from `Element` which extends from `Node`. In the DOM API there is a concept of _children_ elements. For example in the following HTML, the `p` tags are children of the `div` element
 
 ```tsx
 <div>
